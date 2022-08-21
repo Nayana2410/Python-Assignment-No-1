@@ -1,0 +1,48 @@
+Assignment-1: Warm-up with python
+Q1.Write a command to get the Python version you are using.
+  Ans: Output on command Line 
+ C:\Users\nayan>python –version
+       Python 3.10.6
+Output on python Idle  shell file
+    import sys
+     print("python version")
+     print(sys.version)
+     print("Version info")
+     print(sys.version_info)
+
+Q 2. Write a python script to print Hello Python on the screen directly in the command line.
+Ans C:\Users\nayan>python --version
+Python 3.10.6
+C:\Users\nayan>cd C:\Users\nayan\Desktop
+C:\Users\nayan\Desktop>python As1Q2.py
+Hello Python
+ Q   3. Write a python script and store it in a file and execute the file from the command line.
+Ans: C:\Users\nayan>cd C:\Users\nayan\Desktop
+        C:\Users\nayan\Desktop>python As1Q2.py
+        Hello Python 
+Q4. Write a python script to print Hello Python on the screen using visual studio code. 
+Ans:    print("Hello Python")
+Q5. Write a python script to print Hello on the first line and Python on the second line 
+Ans:   print("\nHello" "\nPython")
+
+Q6. Write a python script to print “MySirG” on the screen
+Ans:  print("MySirG")
+Q 7. Write a python script to print “Teacher’s Day” on the screen 
+Ans: print("Teacher's Day")
+Q8. Write a python script to print the value of a variable. Variable contains your name as data.
+Ans: name=input("Your name is:")
+         print(name)
+ Q9. Write a python script to create variables to store your name, age, qualification, years of experience and print it. 
+Ans: Name='Nayana'
+ Age=25
+Qualification='Diploma'
+Experience ='0'
+print(Name)
+print(Age)
+print(Qualification)
+print(Experience)
+Q10. Write a python script to print values of three variables, each in a new line. Variable contains integer values
+Ans: Name="Priya"
+Rollno=25
+Branch='computer'
+print("Hello",Name,Rollno,Branch)
